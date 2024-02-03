@@ -2360,12 +2360,23 @@ a.box-btn:hover i.fa {
 	font-weight: bold;
 	cursor: pointer;
 	font-size: 18px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.plusIcons {
+	font-size: 24px;
+	padding-right: 5px;
 }
 
 .answer {
 	display: none;
 	margin-top: 10px;
 	font-size: 17px;
+	background: #f0f0ed;
+	padding: 5px 7px;
+	border-radius: 5px;
 }
 
 .answer.show {
@@ -2373,3 +2384,45 @@ a.box-btn:hover i.fa {
 }
 
 /* faq section end here  */
+
+
+
+
+
+
+
+/* accessorices */
+.ACCESSORIEShead {
+	text-decoration: underline;
+	text-decoration-color: var(--primaryColor);
+}
+
+.accessoriceWrper {
+	width: 100%;
+	height: auto;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+}
+
+.accessoriceWrper>div {
+	width: 100%;
+}
+
+.accessoriceWrper>div>img {
+	width: 100%;
+}
+
+.accessoricesDetailseWrp {
+	width: 100%;
+	padding: 10px;
+}
+
+.accessoricesDetailseWrp>h4 {
+	font-size: 18px;
+	color: rgb(99, 99, 99);
+}
+
+.accessoricesDetailseWrp>p {
+	color: rgb(152, 152, 152);
+	padding: 10px 0;
+}
