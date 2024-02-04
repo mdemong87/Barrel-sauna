@@ -8,5 +8,6 @@
     },
     "javascript.validate.enable": false,
     "typescript.validate.enable": false,
-    "editor.wordWrap": "on"
+    "editor.wordWrap": "on",
+    "liveServer.settings.port": 5501
 }
